@@ -1,0 +1,192 @@
+﻿#uvod ol.prva {
+	font-family: Bookman Old Style;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+}
+#uvod ol.prva li {
+	display: inline;
+	background-color: rebeccapurple;
+	
+	margin-left:20px;
+	margin-top: 10px;
+	padding: 0 20px;
+}
+#uvod .druga {
+	font-family: Bookman Old Style;
+	font-size: 20px;
+	color: A39DA4;
+	margin-left: 20px;
+	
+	list-style-type: upper-alpha;
+	
+	border-top: 2px solid purple;
+	padding-top: 20px;
+}
+#uvod .druga em {
+	color: rebeccapurple;
+	font: bold italic 40px/1em "Brush Script MT";
+}
+
+#uvod ul.treca {
+	color: rebeccapurple;
+	font-family: Bookman Old Style;
+	font-size: 15px;
+	margin-left: 20px;
+}
+ 
+#sadrzaj h1, #sadrzaj ul {
+	font-family: 'Fuzzy Bubbles', cursive;
+	color: #D67AC5;
+	margin-left: 25px;
+}
+
+#sadrzaj ul {
+	font-size: 18px;
+}
+
+#sadrzaj > ul {
+	border-top: 1px solid purple;
+	border-bottom:1px solid purple;
+	
+	width: 700px;
+	padding: 26px 0;
+	margin-left: 25px;
+	font-size: 20px;
+	
+	list-style-type: none;
+}
+#sadrzaj ul ul {
+	font-family: 'Playfair Display', serif;
+	color: #D8BFD8;
+}
+body {
+	background-color: #FDF1FF;
+}
+
+
+/* --------------------------------------------------------------------- */
+    
+}
+#sazetak h1 {
+    border-bottom: 2px dotted purple;
+}
+#sazetak h1, #sazetak table {
+    width: 340px;
+	margin-left: 25px;
+	font-family: Bookman Old Style;
+	color: rebeccapurple;
+}
+#sazetak table {
+    border-collapse: collapse;
+}
+#sazetak th {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rebeccapurple;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    height: 40px;
+}
+
+#sazetak td {
+    border: 1px solid #D8BFD8;
+}
+
+#sazetak tr:nth-child(2n) {
+    background-color: #FFFAFF;
+}
+
+/* --------------------------------------------------------------------------- */
+
+#linkovi {
+    margin: 30px 25 1000px;
+    clear: both;
+}
+#linkovi ul {
+    list-style: none;
+    padding: 20;
+}
+#linkovi li {
+    width: 290px;
+    padding-left: 30px;
+    background-color: #D8BFD8;
+    border-bottom: 1px solid white;
+}
+#linkovi li a {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: medium;
+    text-decoration: none;
+}
+
+#linkovi li:first-child a:hover {
+    font-size: 22px;
+    text-shadow: 3px 3px 2px rebeccapurple;
+}
+#linkovi li:nth-child(2) a:hover {
+    font-style: italic;
+}
+#linkovi li:nth-child(3) a:hover {
+    background-color: rebeccapurple;
+}
+#linkovi li:nth-child(4) a:hover {
+    color: rebeccapurple;
+}
+#linkovi li:nth-child(5) a:hover {
+    text-decoration: underline rebeccapurple;
+}
+#linkovi li:nth-child(6) a:hover {
+    font-style: italic;
+}
+#linkovi h2 {
+	font-size: 25px;
+	font-family: Bookman Old Style;
+	color: #D67AC5;
+	border-bottom: 1px dotted rebeccapurple;
+}
+#linkovi p {
+	font-size: 20px;
+	font-family:  'Playfair Display', serif;
+	color: #D8BFD8;
+}
+
+/* --------------------------------------------------------------------- */
+
+#cvijet {
+    margin: 100px 0;
+    width: 400px;
+	height: 400px;
+}
+
+#cvijet table {
+    width: 200px;
+    height: 200px;
+    float: left;
+	border: 5px solid rebeccapurple;
+	box-sizing: border-box;
+}
+
+#zuti {
+    background-color: goldenrod;
+    border-radius: 30px 70px 0 70px;
+}
+
+#smedi {
+    background-color: brown;
+    border-radius: 70px 30px 70px 0;
+}
+
+#crveni {
+    background-color: red;
+    border-radius: 70px 0 70px 30px;
+}
+
+#narancasti {
+    background-color: orange;
+    border-radius: 0 70px 30px 70px;
+}
